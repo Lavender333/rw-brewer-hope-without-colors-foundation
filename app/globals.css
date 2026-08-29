@@ -40,7 +40,7 @@
 @media(max-width:560px){.dedication-heading{padding-top:45px}.dedication-main{padding-inline:16px}.plaque-stage{padding:12px 12px 48px}.plaque-stage figcaption{font-size:8px;letter-spacing:.14em}.legacy-gallery{padding-inline:16px}.dedication-values{grid-template-columns:1fr}.legacy-value-card{min-height:280px}.legacy-value-card figcaption{left:22px;bottom:22px}.legacy-value-card strong{font-size:32px}}
 
 /* Cohesive editorial image system */
-.hero-image{background-image:linear-gradient(180deg,transparent 48%,#263e2ae0),url('/site-family.jpg');background-position:center;background-size:cover}
+.hero-image{background-image:linear-gradient(180deg,transparent 46%,#203a26e8),url('/home-hero-harvest.webp');background-position:center 49%;background-size:cover}
 .legacy-art{background-image:linear-gradient(#0000,#24170c66),url('/rw-brewer-dedication-plaque.png');background-position:center;background-size:cover}
 .legacy-art span{font-size:0}
 .legacy-art span:after{content:"A legacy of character, family, and purpose";font:500 16px 'DM Sans'}
