@@ -10,6 +10,13 @@ async function rewrite(directory) {
       await rewrite(path);
       continue;
     }
+    if (entry.name.endsWith(".css")) {
+      let css = await readFile(path, "utf8");
+      css = css.replaceAll("url('/", `url('${basePath}/`);
+      css = css.replaceAll('url("/', `url("${basePath}/`);
+      await writeFile(path, css);
+      continue;
+    }
     if (!entry.name.endsWith(".html")) continue;
     let html = await readFile(path, "utf8");
     html = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "");
