@@ -1,4 +1,4 @@
-# R. W. Brewer HopeWithout Foundation
+# R.W. Brewer Jr. Hope Without Colors Foundation
 
 A responsive, accessible nonprofit website built with Next.js, React, TypeScript, and Tailwind CSS.
 
@@ -19,10 +19,10 @@ npm run build
 
 ## Before public launch
 
-- Confirm the foundation's official legal/public name.
+- Confirm that the public name matches the legal entity name before payment processing, tax receipts, or legal disclosures are enabled.
 - Replace the temporary crest and legacy artwork with approved assets.
 - Add confirmed contact and social information in `app/site-config.ts`.
-- Replace `hopewithout.example` in metadata, sitemap, and robots with the final domain.
+- Replace the current preview-domain metadata if a custom public domain is connected.
 - Connect an approved PCI-compliant donation processor.
 - Connect contact/volunteer forms to secure email delivery and spam protection.
 - Have the draft privacy policy and terms reviewed.
