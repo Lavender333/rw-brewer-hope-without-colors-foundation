@@ -14,6 +14,7 @@ async function rewrite(directory) {
       let css = await readFile(path, "utf8");
       css = css.replaceAll("url('/", `url('${basePath}/`);
       css = css.replaceAll('url("/', `url("${basePath}/`);
+      css = css.replaceAll("url(/", `url(${basePath}/`);
       await writeFile(path, css);
       continue;
     }
