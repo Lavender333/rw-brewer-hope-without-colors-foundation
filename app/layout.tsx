@@ -1,0 +1,3 @@
+import type {Metadata} from "next";import "./globals.css";import {Header,Footer} from "./components";
+export const metadata:Metadata={metadataBase:new URL("https://hopewithout.example"),title:{default:"R. W. Brewer HopeWithout Foundation",template:"%s | R. W. Brewer HopeWithout Foundation"},description:"Building stronger communities through nutrition, education, wellness, and opportunity.",icons:{icon:"/favicon.svg"}};
+export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="en"><body><a className="skip" href="#main">Skip to content</a><Header/>{children}<Footer/></body></html>}

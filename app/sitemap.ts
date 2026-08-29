@@ -1,0 +1,1 @@
+import type {MetadataRoute} from "next";export default function sitemap():MetadataRoute.Sitemap{let base="https://hopewithout.example";return ["","/about","/pillars","/programs","/legacy","/get-involved","/contact","/privacy","/terms"].map(url=>({url:base+url,lastModified:new Date()}))}
