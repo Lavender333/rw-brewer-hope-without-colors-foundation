@@ -17,6 +17,10 @@ Open `http://localhost:3000`.
 npm run build
 ```
 
+## GitHub Pages
+
+Every push to `main` automatically exports all website routes and publishes them to GitHub Pages through `.github/workflows/pages.yml`.
+
 ## Before public launch
 
 - Confirm that the public name matches the legal entity name before payment processing, tax receipts, or legal disclosures are enabled.
