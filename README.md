@@ -1,4 +1,4 @@
-# R.W. Brewer Jr. Hope Without Colors Foundation
+# R.W. Brewer Jr. Hope Without Color Foundation
 
 A responsive, accessible nonprofit website built with Next.js, React, TypeScript, and Tailwind CSS.
 

@@ -62,7 +62,7 @@ export default function Page() {
       <div>
         <p className="eyebrow">A legacy in motion</p>
         <h2>Help Carry This Legacy Forward</h2>
-        <p>Your support helps the R.W. Brewer Jr. Hope Without Colors Foundation continue building nutrition, education, mentorship, wellness, and opportunities that create real change.</p>
+        <p>Your support helps the R.W. Brewer Jr. Hope Without Color Foundation continue building nutrition, education, mentorship, wellness, and opportunities that create real change.</p>
         <div className="actions">
           <Link className="button gold" href="/get-involved#donate">Support the mission</Link>
           <Link className="button outline" href="/about">About the foundation</Link>

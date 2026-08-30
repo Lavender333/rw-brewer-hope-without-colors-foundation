@@ -1,1 +1,1 @@
-import type {MetadataRoute} from "next";export default function robots():MetadataRoute.Robots{return {rules:{userAgent:"*",allow:"/"},sitemap:"https://rw-brewer-hopewithout-foundation.antoinette-w-0270.chatgpt.site/sitemap.xml"}}
+import type {MetadataRoute} from "next";export default function robots():MetadataRoute.Robots{return {rules:{userAgent:"*",allow:"/"},sitemap:"https://lavender333.github.io/rw-brewer-hope-without-colors-foundation/sitemap.xml"}}
