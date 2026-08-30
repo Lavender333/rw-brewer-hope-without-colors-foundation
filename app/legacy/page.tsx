@@ -21,6 +21,7 @@ export default function Page() {
       <p className="eyebrow">INTEGRITAS • HONOR • FAMILIA</p>
       <h1>The Dedication Plaque</h1>
       <p>Honoring a life of integrity, honor, family, and enduring legacy.</p>
+      <p className="family-roles">Brother <span>•</span> Husband <span>•</span> Father <span>•</span> Grandfather <span>•</span> Great-Grandfather</p>
     </section>
 
     <section className="dedication-main">
@@ -36,7 +37,7 @@ export default function Page() {
         <h2>A Life That Built<br />Stronger Foundations</h2>
         <div className="gold-rule" />
         <p>This plaque honors R.W. Brewer Jr.—a man of unwavering integrity and boundless commitment to those he loved and served.</p>
-        <p>He was a devoted husband, a guiding father, a principled leader, and a trusted mentor whose wisdom and example lifted families and communities.</p>
+        <p>He was a beloved brother, devoted husband, guiding father, proud grandfather and great-grandfather, principled leader, and trusted mentor whose wisdom and example lifted generations, families, and communities.</p>
         <p>His highest priority was character. His greatest joy came from time on the water, strikes on the lanes, and the music that moved his soul.</p>
         <p>This tribute reminds us that legacies are measured in the lives we influence and the values we pass on. His legacy lives on in all who continue the work of hope, service, and unity.</p>
         <blockquote className="dedication-quote">“A life of integrity becomes a legacy of hope.”</blockquote>
