@@ -36,6 +36,9 @@ export default function Page() {
         <p className="eyebrow">His enduring legacy</p>
         <h2>A Life That Built<br />Stronger Foundations</h2>
         <div className="gold-rule" />
+        <div className="family-role-grid" aria-label="His cherished family roles">
+          <span>Brother</span><span>Husband</span><span>Father</span><span>Grandfather</span><span>Great-Grandfather</span>
+        </div>
         <p>This plaque honors R.W. Brewer Jr.—a man of unwavering integrity and boundless commitment to those he loved and served.</p>
         <p>He was a beloved brother, devoted husband, guiding father, proud grandfather and great-grandfather, principled leader, and trusted mentor whose wisdom and example lifted generations, families, and communities.</p>
         <p>His highest priority was character. His greatest joy came from time on the water, strikes on the lanes, and the music that moved his soul.</p>

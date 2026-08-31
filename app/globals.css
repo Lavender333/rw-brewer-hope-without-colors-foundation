@@ -40,17 +40,17 @@
 @media(max-width:560px){.dedication-heading{padding-top:45px}.dedication-main{padding-inline:16px}.plaque-stage{padding:12px 12px 48px}.plaque-stage figcaption{font-size:8px;letter-spacing:.14em}.legacy-gallery{padding-inline:16px}.dedication-values{grid-template-columns:1fr}.legacy-value-card{min-height:280px}.legacy-value-card figcaption{left:22px;bottom:22px}.legacy-value-card strong{font-size:32px}}
 
 /* Cohesive editorial image system */
-.hero-image{background-image:linear-gradient(180deg,transparent 46%,#203a26e8),url('/home-hero-harvest.webp');background-position:center 49%;background-size:cover}
+.hero-image{background-image:linear-gradient(180deg,transparent 46%,#203a26e8),url('/home-community-together-v2.webp');background-position:center 48%;background-size:cover}
 .legacy-art{aspect-ratio:1122/1402;min-height:0;background-color:#20140b;background-image:url('/rw-brewer-dedication-plaque.png');background-position:center;background-repeat:no-repeat;background-size:contain;padding:0}
 .legacy-art span{display:none}
-.page-hero{background-image:linear-gradient(90deg,#182b1df2,#182b1d70),url('/site-community-garden.jpg')}
+.page-hero{background-image:linear-gradient(90deg,#182b1df2,#182b1d70),url('/pillars-pathway-v2.webp')}
 .about-hero{background-image:linear-gradient(90deg,#182b1df2,#182b1d66),url('/site-family.jpg');background-position:center 45%}
 .programs-hero{background-image:linear-gradient(90deg,#17344ef2,#17344e70),url('/site-food-access.jpg')}
-.involve-hero{background-image:linear-gradient(90deg,#641e22f2,#641e2275),url('/site-volunteers.jpg')}
+.involve-hero{background-image:linear-gradient(90deg,#641e22f2,#641e2275),url('/volunteers-fresh-groceries-v2.webp')}
 .contact-hero{background-image:linear-gradient(90deg,#17344ef2,#17344e70),url('/site-community.jpg')}
-.food-img{background-image:url('/site-food-access.jpg')}
-.learn-img{background-image:url('/site-education.jpg')}
-.wellness-img{background-image:url('/site-wellness.jpg')}
+.food-img{background-image:url('/food-father-daughter-harvest-v2.webp')}
+.learn-img{background-image:url('/education-mentor-children-v2.webp')}
+.wellness-img{background-image:url('/health-community-walk-v2.webp')}
 .legacy-still-life{background-image:linear-gradient(90deg,transparent,#fffaf1),url('/legacy-boating.jpg')}
 .hero-image,.page-hero,.story-image,.legacy-art,.legacy-still-life{filter:saturate(.86)}
 
@@ -129,3 +129,6 @@ form .button[type=submit]:disabled{cursor:wait;transform:none;box-shadow:none}
 
 .family-roles{margin:24px auto 0!important;color:#6b4316!important;font:600 clamp(18px,2vw,25px)/1.5 'Cormorant Garamond'!important;letter-spacing:.045em}.family-roles span{color:var(--gold);padding:0 .35em}
 @media(max-width:560px){.family-roles{max-width:330px;font-size:18px!important}.family-roles span{padding:0 .16em}}
+
+.family-role-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;margin:24px 0 30px;border:1px solid #d4a756;background:#d4a756;box-shadow:0 12px 28px #4e321519}.family-role-grid span{display:grid;place-items:center;min-height:64px;padding:10px 7px;background:#2e1a0d;color:#f3d8a5;text-align:center;font:600 18px/1.08 'Cormorant Garamond';letter-spacing:.025em}.family-role-grid span:last-child{font-size:16px}
+@media(max-width:700px){.family-role-grid{grid-template-columns:repeat(2,1fr)}.family-role-grid span:last-child{grid-column:1/-1}}
