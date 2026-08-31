@@ -2,7 +2,7 @@
 set -euo pipefail
 
 pages_dir="$PWD/_site"
-base_path="/rw-brewer-hope-without-colors-foundation"
+base_path=""
 
 rm -rf "$pages_dir"
 mkdir -p "$pages_dir"
@@ -20,4 +20,5 @@ for route in "${routes[@]}"; do
 done
 
 node scripts/rewrite-github-pages.mjs "$pages_dir" "$base_path"
+printf '%s\n' 'hopewithoutcolor.com' > "$pages_dir/CNAME"
 touch "$pages_dir/.nojekyll"

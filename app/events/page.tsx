@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata={title:"Upcoming Events",description:"Upcoming community events from the R.W. Brewer Jr. Hope Without Color Foundation."};
 
 const formAction="https://formsubmit.co/antoinettewilliams@thetruelavender.online";
-const thankYou="https://lavender333.github.io/rw-brewer-hope-without-colors-foundation/thank-you";
+const thankYou="https://hopewithoutcolor.com/thank-you";
 
 export default function Page(){return <main id="main">
   <section className="page-hero events-hero"><p className="eyebrow">Gather · Learn · Grow</p><h1>Upcoming events</h1><p>Community-centered opportunities to connect, learn, serve, and move forward together.</p></section>
