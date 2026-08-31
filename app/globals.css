@@ -132,3 +132,6 @@ form .button[type=submit]:disabled{cursor:wait;transform:none;box-shadow:none}
 
 .family-role-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;margin:24px 0 30px;border:1px solid #d4a756;background:#d4a756;box-shadow:0 12px 28px #4e321519}.family-role-grid span{display:grid;place-items:center;min-height:64px;padding:10px 7px;background:#2e1a0d;color:#f3d8a5;text-align:center;font:600 18px/1.08 'Cormorant Garamond';letter-spacing:.025em}.family-role-grid span:last-child{font-size:16px}
 @media(max-width:700px){.family-role-grid{grid-template-columns:repeat(2,1fr)}.family-role-grid span:last-child{grid-column:1/-1}}
+
+.copyright{display:flex;align-items:center;justify-content:space-between;gap:22px}.site-credit{white-space:nowrap}.site-credit a{color:#e6c687;font-weight:700;text-decoration:none;border-bottom:1px solid #e6c68780;transition:color .2s ease,border-color .2s ease}.site-credit a:hover,.site-credit a:focus-visible{color:white;border-color:white}
+@media(max-width:700px){.copyright{flex-direction:column;text-align:center;gap:10px}.site-credit{white-space:normal}}
