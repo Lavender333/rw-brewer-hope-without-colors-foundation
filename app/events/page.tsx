@@ -15,7 +15,7 @@ export default function Page(){return <main id="main">
     <div><p className="eyebrow">Foundation owners</p><h2>Submit an event update</h2><p>Send a new event, correction, or event image securely to the foundation inbox for review and publication. The owner access code is never stored in the public website.</p></div>
     <form action={formAction} method="POST" encType="multipart/form-data">
       <input type="hidden" name="_subject" value="Owner Event Update — Hope Without Color Foundation"/>
-      <input type="hidden" name="_cc" value="ken.brewer@frg4.com,ken.brewer@infoaera.com"/>
+      <input type="hidden" name="_cc" value="ken.brewer@frg4.com,ken.brewer@infoaera.com,ezclient@gmail.com"/>
       <input type="hidden" name="_next" value={thankYou}/>
       <input type="hidden" name="_template" value="table"/>
       <input type="text" name="_honey" className="honey" tabIndex={-1} autoComplete="off" aria-hidden="true"/>
