@@ -20,7 +20,7 @@ async function rewrite(directory) {
     }
     if (!entry.name.endsWith(".html")) continue;
     let html = await readFile(path, "utf8");
-    html = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "");
+    html = html.replace(/<script\b(?![^>]*src=["']https:\/\/js\.stripe\.com\/v3\/buy-button\.js["'])[^>]*>[\s\S]*?<\/script>/gi, "");
     html = html.replaceAll('href="/', `href="${basePath}/`);
     html = html.replaceAll('src="/', `src="${basePath}/`);
     await writeFile(path, html);
