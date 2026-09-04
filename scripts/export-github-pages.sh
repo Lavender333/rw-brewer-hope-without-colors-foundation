@@ -8,7 +8,7 @@ rm -rf "$pages_dir"
 mkdir -p "$pages_dir"
 cp -R dist/client/. "$pages_dir/"
 
-routes=("" "about" "pillars" "programs" "events" "legacy" "get-involved" "contact" "privacy" "terms" "thank-you")
+routes=("" "about" "founders-message" "biography" "pillars" "programs" "events" "legacy" "get-involved" "contact" "privacy" "terms" "thank-you")
 for route in "${routes[@]}"; do
   if [[ -z "$route" ]]; then
     output="$pages_dir/index.html"

@@ -135,3 +135,31 @@ form .button[type=submit]:disabled{cursor:wait;transform:none;box-shadow:none}
 
 .copyright{display:flex;align-items:center;justify-content:space-between;gap:22px}.site-credit{white-space:nowrap}.site-credit a{color:#e6c687;font-weight:700;text-decoration:none;border-bottom:1px solid #e6c68780;transition:color .2s ease,border-color .2s ease}.site-credit a:hover,.site-credit a:focus-visible{color:white;border-color:white}
 @media(max-width:700px){.copyright{flex-direction:column;text-align:center;gap:10px}.site-credit{white-space:normal}}
+
+/* Founder and biography editorial pages */
+.story-page{background:linear-gradient(180deg,#f7f0e4 0,#fffdf9 34%,#f8f2e8 100%)}
+.story-hero{min-height:500px;display:grid;align-items:end;padding:clamp(80px,10vw,140px) max(8vw,30px) 75px;color:white;position:relative;isolation:isolate;overflow:hidden}
+.story-hero:before{content:"";position:absolute;inset:0;z-index:-2;background:center/cover no-repeat}
+.story-hero:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#17241cf2 0%,#17241cce 47%,#17241c45 100%)}
+.founder-story-hero:before{background-image:url('/site-community.jpg');filter:saturate(.72) sepia(.08)}
+.biography-story-hero:before{background-image:url('/pillars-pathway-v2.webp');filter:saturate(.68) sepia(.12)}
+.story-hero-inner{width:min(780px,100%)}
+.story-hero h1{font:600 clamp(58px,7vw,92px)/.88 'Cormorant Garamond';letter-spacing:-.025em;margin:15px 0 24px}
+.story-hero .eyebrow{color:#e2bb72}
+.story-hero-inner>p:last-child{font:500 clamp(20px,2.2vw,29px)/1.35 'Cormorant Garamond';margin:0;max-width:680px;color:#f8ead1}
+.story-article{width:min(860px,calc(100% - 48px));margin:0 auto;padding:90px 0 80px;color:#403a33}
+.story-article p{font:400 18px/1.9 'DM Sans';margin:0 0 28px}
+.story-article .story-opening{font:500 clamp(23px,2.4vw,30px)/1.55 'Cormorant Garamond';color:#283d2d}
+.story-article .story-opening:first-letter{float:left;font:600 5.2rem/.75 'Cormorant Garamond';color:var(--gold);padding:.15em .12em 0 0}
+.story-article blockquote{font:italic 600 clamp(29px,3.5vw,43px)/1.18 'Cormorant Garamond';color:#6b431b;border:0;border-block:1px solid #d4b679;text-align:center;margin:58px 0;padding:38px 6vw}
+.story-closing{font:600 clamp(24px,2.6vw,32px)/1.5 'Cormorant Garamond'!important;color:#2a402f!important;margin-top:48px!important}
+.story-signature{background:transparent;color:#33281d;padding:18px 0 0;border-top:1px solid #d9c7aa;display:flex;flex-direction:column;gap:6px}
+.story-signature strong{font:600 30px 'Cormorant Garamond';color:#6b431b}
+.story-signature span{font-size:14px;color:var(--muted)}
+.story-next{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:38px max(8vw,30px);background:#203828;color:white}
+.story-next>span{text-transform:uppercase;letter-spacing:.18em;color:#d8b66f;font-size:12px;font-weight:700}
+.story-next a{color:white;text-decoration:none;font:600 clamp(24px,3vw,38px) 'Cormorant Garamond';transition:color .2s ease,transform .3s var(--ease-lux)}
+.story-next a:hover,.story-next a:focus-visible{color:#f0ce89;transform:translateX(5px)}
+@media(min-width:1201px){.site-header{gap:16px}.site-header nav{gap:13px}.site-header nav a{font-size:12px;white-space:nowrap}}
+@media(max-width:1200px){.site-header nav{display:none}.mobile-menu{display:block;position:relative}.mobile-menu div{position:absolute;right:0;top:35px;background:var(--cream);border:1px solid var(--border);min-width:230px;max-height:calc(100vh - 110px);overflow:auto;padding:12px;box-shadow:0 20px 45px #251a1120}.mobile-menu a{display:block;padding:11px 12px;color:var(--ink);text-decoration:none}.mobile-menu{margin-left:auto}.site-header>.gold{display:none}}
+@media(max-width:700px){.story-hero{min-height:420px;padding:90px 24px 55px}.story-hero:after{background:linear-gradient(180deg,#17241c8c,#17241ceb)}.story-hero h1{font-size:55px}.story-article{width:min(100% - 38px,860px);padding:65px 0}.story-article p{font-size:16px;line-height:1.8}.story-article blockquote{margin:42px 0;padding:30px 8px}.story-next{align-items:flex-start;flex-direction:column}.story-next a{font-size:29px}}
